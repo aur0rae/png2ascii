@@ -1,5 +1,6 @@
 # Makefile
 CC = gcc
+# -ggdb3 is for debugging with Valgrind. Remove later
 CFLAGS = -Wall -pedantic -Wno-deprecated-declarations -ggdb3
 LDFLAGS =
 
